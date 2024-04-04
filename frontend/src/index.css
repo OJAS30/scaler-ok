@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f2f2; /* Light gray background */
+  color: #333; /* Dark gray text color */
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f8f8f8; /* Light gray background for code */
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* Improve readability for headings */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  color: #444; /* Dark gray heading color */
+  margin-top: 0;
+}
+
+/* Add some padding to improve readability */
+p {
+  padding-bottom: 10px;
+}
+
+/* Add some space between list items */
+ul, ol {
+  padding-left: 20px;
+}
+
+/* Style links */
+a {
+  color: #007bff; /* Blue link color */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

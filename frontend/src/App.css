@@ -1,0 +1,41 @@
+/* Adjusted color coding and professional styling */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #007bff; /* Changed background color to a professional blue */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(14px + 2vmin); /* Adjusted font size for better readability */
+  color: #ffffff; /* Changed text color to white */
+  padding: 20px; /* Added padding for better spacing */
+}
+
+.App-link {
+  color: #17a2b8; /* Adjusted link color to a professional blue */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
